@@ -1,0 +1,49 @@
+define kat = Character('Katerina')
+
+label katerina_start:
+    play music "Katerina.mp3"
+    
+label katerina:
+    show sangria at left
+    show katerina_neutral at right
+    kat "What can I do for you, mon amie?"
+    
+    menu:
+        
+        "option 1":
+            jump option1
+        
+        "option 2":
+            jump option2
+            
+        "option 3":
+            jump option3
+            
+        "option 4":
+            jump option4
+            
+        "I gotta go.":
+            stop music fadeout 1.0
+            jump start
+
+label option1:
+    "This is example text for a happy option."
+    jump katerina
+
+label option2:
+    "This is example text for a sad option."
+    jump katerina
+
+label option3:
+    "This is example text for a angry option."
+    jump katerina
+
+label option4:
+    "This is example text for a bonus option."
+    jump katerina
+
+    
+    
+    return
+
+

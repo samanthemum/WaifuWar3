@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/howtoplay.rpy", line 38, in script
+    jump story
+ScriptError: could not find label 'story'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/howtoplay.rpy", line 38, in script
+    jump story
+  File "C:\Users\Sam Hallam\Desktop\IDE Paradise\renpy\renpy-7.3.5-sdk\renpy\ast.py", line 1697, in execute
+    rv = renpy.game.script.lookup(target)
+  File "C:\Users\Sam Hallam\Desktop\IDE Paradise\renpy\renpy-7.3.5-sdk\renpy\script.py", line 898, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'story'.
+
+Windows-8-6.2.9200
+Ren'Py 7.3.5.606
+Waifu War III Version 1.13
+Thu Apr 23 13:26:09 2020

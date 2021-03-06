@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/hans.rpy", line 107: expected statement.
+    mcMood.increaseSadcounter()
+                               ^
+
+Ren'Py Version: Ren'Py 7.3.5.606
+Tue Apr 21 21:11:46 2020
